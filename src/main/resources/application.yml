@@ -1,0 +1,8 @@
+ flyway:
+    enabled: true
+    baseline-on-migrate: true
+    check-location: true
+    clean-disabled: false
+    clean-on-validation-error: true
+
+

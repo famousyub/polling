@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      
+      
+server:
+  port: 8080
+  compression:
+    enabled: true
+    min-response-size: 2KB
+    mime-types: video/mpeg4-generic, video/mpeg, video/mp4, video/ogg, video/3gpp, video/x-matroska
+    ffmpeg: ${FFMPEG_PATH:ffmpeg}
+    ffprobe: ${FFPROBE_PATH:ffprobe}
